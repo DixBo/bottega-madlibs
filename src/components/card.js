@@ -14,7 +14,7 @@ class Card extends Component {
     } 
 
     handleInputChange() {
-        this.setState({color: 'red'})
+        this.setState({ color: 'red' })
     }
 
 
@@ -28,10 +28,10 @@ class Card extends Component {
         )
         
         return (
-            <div className="card">
-            <h1>{this.state.color}</h1>
+            <div className="card" >
+                <h1>{this.state.color}</h1>
                 { Input('Color') }
-                { Input('Plural Noun')}
+                { Input('Plural Noun') }
             </div>
         )
     }
